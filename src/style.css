@@ -35,11 +35,35 @@ body {
 }
 
 .btn-success {
+  color: white;
   background-color: #6de284;
   border: 0;
 }
+.btn-success:hover {
+  
+  background-color: #42c25c;
+ 
+}
 
+
+
+
+
+.btn-signUp{
+
+
+  background-color: #ec6a6a;
+}
+
+.btn-signUp:hover{
+ 
+  background-color: #ee5252;
+}
+.background-input{
+  background-color: rgba(238, 238, 238, 0.705);
+}
 .login-input {
   text-align: right;
   outline: 0;
+ 
 }

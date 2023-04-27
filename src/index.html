@@ -20,16 +20,65 @@
     class="background-gradient w-100 h-100 d-flex justify-content-center align-items-center px-3"
   >
     <div
-      class="container d-flex w-50 justify-content-between overflow-hidden bg-light rounded-5 shadow h-75"
+      class="container d-flex w-50 py-5 justify-content-between overflow-hidden bg-light rounded-5 shadow "
     >
-      <section class="flex-fill">Sina</section>
+    <section
+    class="flex-fill d-flex justify-content-center align-items-start gap"
+  >
+    <div class="d-flex flex-column gap-4">
+      <p class="h4 text-secondary text-center">ثبت نام کاربر</p>
+      <div class="rounded-5 border py-2 px-1 background-input">
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="نام"
+          class="login-input border-0 bg-transparent"
+          dir="rtl"
+        />
+        <span class="mx-2">
+          <i class="bi bi-person-fill"></i>
+        </span>
+      </div>
+      <div class="background-input rounded-5 border py-2 px-1">
+        <input
+          type="email"
+          name=""
+          id=""
+          placeholder="ایمیل"
+          class="login-input border-0 bg-transparent"
+          dir="rtl"
+        />
+        <span class="mx-2">
+          <i class="bi bi-envelope-fill"></i>
+        </span>
+      </div>
 
+      <!-- <input type="password" name="" id="" placeholder="کلمه عبور" /> -->
+
+      <div class="background-input rounded-5 border py-2 px-1">
+        <input
+          type="email"
+          name=""
+          id=""
+          placeholder="کلمه عبور"
+          class="login-input border-0 bg-transparent"
+          dir="rtl"
+        />
+        <span class="mx-2">
+          <i class="bi bi-lock-fill"></i>
+        </span>
+      </div>
+      <button type="button" class="btn btn-signUp text-light rounded-5">ثبت نام</button>
+    </div>
+  </section>
+<!-- ======================================================================================== -->
       <section
-        class="flex-fill d-flex justify-content-center align-items-center gap"
+        class="flex-fill d-flex justify-content-center align-items-start gap"
       >
-        <div class="d-flex flex-column gap-4">
+        <div class=" d-flex flex-column gap-4">
           <p class="h4 text-secondary text-center">ورود کاربری</p>
-          <div class="rounded-5 border py-2 px-1">
+          <div class=" background-input rounded-5 border py-2 px-1">
             <input
               type="email"
               name=""
@@ -45,7 +94,7 @@
 
           <!-- <input type="password" name="" id="" placeholder="کلمه عبور" /> -->
 
-          <div class="rounded-5 border py-2 px-1">
+          <div class="background-input rounded-5 border py-2 px-1">
             <input
               type="email"
               name=""
