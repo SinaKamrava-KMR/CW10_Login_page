@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'EstedadM';
+  src: url("fonts/EstedadMedium.ttf");
+}
+@font-face {
+  font-family: 'EstedadR';
+  src: url("fonts/EstedadRegular.ttf");
+}
+@font-face {
+  font-family: 'EstedadB';
+  src: url("fonts/EstedadBold.ttf");
+}
+
+
+body{
+  font-family: EstedadM sans-serif ;
+}
